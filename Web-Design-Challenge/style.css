@@ -34,7 +34,7 @@ body{
 /* Media */
 @media (max-width: 992px){
 .navbar-expand-lg{
-	background-color: #00a0a0;
+	background-color: white;
 }
 .navbar{
     max-height: none; 
