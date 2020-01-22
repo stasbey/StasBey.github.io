@@ -38,7 +38,7 @@ body{
 }
 .navbar{
     max-height: none; 
-    padding: inherit;
+    padding: white;
 }
 .navbar div{
     margin: inherit; 
