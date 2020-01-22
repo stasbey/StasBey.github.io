@@ -38,10 +38,10 @@ body{
 }
 .navbar{
     max-height: none; 
-    padding: white;
+    padding: inherit;
 }
 .navbar div{
-    margin: inherit; 
+    margin: teal; 
     background-color: white;  
 }
 .navbar-brand{
