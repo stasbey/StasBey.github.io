@@ -1,0 +1,125 @@
+/* Body */
+body{
+    background-color: #EDEDED; 
+}
+
+/* Navbar */
+.navbar{
+    max-height: 46px; 
+    background-color: white;
+    font-size: 15px;
+}
+
+.navigation .navbar-brand{
+	color: white; 
+	margin-left: 50px; 
+	padding: inherit; 
+	font-weight: bold; 
+	background-color: teal;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.dropdown-item{
+    color: grey; 
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
+    background-color:white; 
+}
+
+.nav-link:hover{
+    background-color:white;
+}
+
+/* Media */
+@media (max-width: 992px){
+.navbar-expand-lg{
+	background-color: #00a0a0;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px; 
+}
+
+button{
+    margin-left: auto; 
+}
+
+button:focus {
+    outline: 1px dotted;
+}
+}
+
+.description-content {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding: 10px 30px 5px;
+	color: black;
+	background-color: white;
+}
+
+.imageNav-content {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+}
+.description-header, .imageNav-header {
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: teal;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/* Images */
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.description-image {
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+
+/* Paragraph */
+p{
+	color: grey;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.active, .imageNav-photo:hover{
+    border-color: white;
+    border-style: solid; 
+}
+
+/* Footer */
+.footer{
+	background-color: grey; 
+    border-top-style: solid; 
+    border-top-width: 5px; 
+    border-top-color: teal;
+    color: white; 
+    min-height: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
