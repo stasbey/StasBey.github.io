@@ -1,0 +1,146 @@
+body {
+    background-color: #f8f9fb;
+}
+
+h1 {
+    color: rgb(40, 40, 40);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3.4vw;
+    font-weight: 600;
+    margin-top: 0;
+    /* line-height: 3.5rem; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    /* line-height: 3.5rem; */
+}
+
+
+h3, h4, p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: rgb(40, 40, 40);
+    font-size: 2.3vw;
+    font-weight: 300;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h4 {
+    color: rgb(40, 40, 40);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 200;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2368a2;
+}
+
+a:hover {
+    color: #475059;
+    /* border-bottom: 1px solid #475059; */
+}
+
+#pic-of-me {
+    max-width: 100%;
+    height: auto;
+}
+
+#right-side {
+    height: 100%;
+}
+
+.links-menu {
+    margin: 0 0 .3rem 0;
+}
+
+#social-icons-parent {
+    position: absolute;
+    bottom: 0;
+}
+
+.social-icon {
+    margin-right: .3rem;
+    vertical-align: text-top;
+}
+
+@media (max-width: 992px) {
+    #left-side, #right-side {
+        margin-top: 3vh;
+    }
+
+    h1 {
+        font-size: 6.4vw;
+    }
+    h3 {
+        font-size: 4.5vw;
+    }
+    h4 {
+        font-size: 3.2vw;
+    }
+
+    #pic-of-me {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .centered-when-small {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center;
+    }
+    #social-icons-parent {
+        position: static;
+        margin-top: 2vh;
+    }
+  }
+  @media (min-width: 993px) {
+    #left-side, #right-side {
+        margin-top: 20vh;
+    }
+  }
+
+/* projects page */
+.card-img-top {
+    width: 100%;
+    height: 13vw;
+    object-fit: cover;
+    object-position: 0 0; /* positioned top left of the content box */
+}
+
+.cardsrow {
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+#social-container-upper-right {
+    margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+   #projects-title {
+       text-align: center;
+   }
+
+   #social-container-upper-right {
+       margin-top: 0;
+       margin-bottom: 2rem;
+   }
+
+  }
